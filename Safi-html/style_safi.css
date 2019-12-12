@@ -1,0 +1,286 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url('base.png');
+    background-repeat: no-repeat;
+    height: auto;
+    
+}
+.header{
+    background-image: url(youcode_safi.png);
+    background-position: center;
+    background-size: cover;
+    width:100%;
+    height: 600px;
+    margin-top: -20px;
+}
+.table1{
+    font-size: 15px;
+    font-family: ;
+    color:white;
+    padding-top: 21px;
+    float:right;
+    font-family: Montserrat;
+    text-align: center;
+}
+.menu{
+    background-color: rgb(0, 0, 0);
+    opacity: 0.9;
+    height:70px;
+    width: 100%;
+    position:fixed;
+    top:0;
+}
+.logo{
+    margin-left: 100px;
+    padding-top: 10px;
+    float: left;
+}
+.td1{
+    padding-right: 80px;
+}
+#btn{
+    font-size: 20px;
+    color:white;
+    border-radius: 30px;
+    height:45px;
+    width: 140px;
+    border : none;
+    background-color: #008AFF;
+    box-shadow: 0px 0px 35px -6px rgb(104, 168, 221);
+    font: montserrat;  
+} 
+#btn:hover{
+    font-size: 20px;
+    color:black;
+    border-radius: 30px;
+    height:45px;
+    width: 140px;
+    border : none;
+    background-color:#FFF;
+    box-shadow: 0px 0px 35px -6px rgb(104, 168, 221);
+    font: montserrat;   
+} 
+#para1{
+    margin-top:200px;
+    color: white;
+    font-size: 60px;
+    padding-top:170px;
+    font-family: Montserrat;
+    font-weight: 100;
+}
+#span1{
+    color:#008AFF;    
+}
+#para2{
+    color: white;
+    font-size: 35px;
+    margin-top: 34px;
+    font-family: Montserrat ;
+}
+#titre1{
+    color:#008AFF;
+    margin-top: 50px;
+    font-size: 60px;
+    font-family: Montserrat;
+    text-align: center;
+    font-weight: 100;
+
+}
+p{
+    text-align: center;
+    color: #666666;
+    font-size: 20px;
+    font-family:  montserrat;
+}
+.flex1 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 3%;
+}
+.flex1 > .d1 > img{
+    border-radius: 30px;
+    width:50%;
+    float: left;
+}
+.flex1 > .d1 > .d1-1{
+    border-radius: 30px;
+    width:50%;
+    margin-left: 50%;
+}
+.flex2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 3%;
+}
+
+.flex2 > .d2 > .d2-1{
+    border-radius: 30px;
+    width:50%;
+    float: left;
+}
+.flex2 > .d2 > img{
+    border-radius: 30px;
+    width:50%;
+    margin-left: 50%;
+    margin-top: -300px;
+}
+.flex3 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap; 
+}
+.flex3 > .dc{
+    background-color:#008AFF; 
+    width:100%;
+    height: 100px;
+    float: left;
+}
+.flex3 > .dc > h1{
+    font-family:montserrat;
+    font-size: 20px;
+    font-weight: 100;
+    color: white;
+}
+.flex4{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 3%; 
+}
+.flex4 > .local1 > div >img {
+    border-radius: 30px;
+    width:50%;
+    float: left;
+}
+.flex4 > .local2{
+    border-radius: 30px;
+    width:50%;
+    margin-left: 50%;
+    margin-top: -250px;
+}
+.flex4 > .local2 >div > img{
+    float:left
+}
+a {
+    text-decoration: none;
+    font-family: montserrat;
+    color: white;
+    
+}
+a:hover {
+    text-decoration: none;
+    font-family: montserrat;
+    font-weight: bold;
+    color:  #008AFF;
+    
+}
+
+#dc{
+    margin-left: 150px;
+    width: 330px;
+    height: 200px;
+    background-color: #008AFF;
+    float: left;
+    border-radius:110px;
+    font-family: montserrat;
+}
+
+
+.i1{
+    margin-left: 50%;
+    margin-top: 100px;
+}
+.p1{
+    margin-top: 70px;
+}
+h1{
+    text-align: center;
+    margin-top:10px;
+    color: white;
+    font-family: montserrat;
+    font-weight: 100;
+}
+#Adr{
+    margin-top: 40px;
+    color: black;
+    font-family: montserrat;
+    color: #008AFF;
+    font-weight: 100;
+    margin-left: 20px;
+}
+#maps{
+    margin-left: 100px;
+    margin-top:80px;
+}
+#simplon{
+    margin-left: 37%;
+}
+#statis{
+     margin-top: 3Opx;
+}#you{
+    position: absolute;
+    margin-left:30px;
+}
+
+.footer{
+    background-color: black;
+    width: 100%;
+    height: 60px;
+    margin-top:60px;
+  
+}
+#ocp{
+    margin-left: 10%;
+}
+
+.table4{
+    color: #666666;
+    text-align: right;
+    width: 100%; 
+    font-family: montserrat;
+    letter-spacing: 0.08em;
+}
+
+.reseaux{
+    float:right;
+    display: inline;
+    text-align:start;
+}
+
+.copyright{
+    margin-right: -50px;
+}
+.support{
+    color:rgb(41, 122, 230);
+}
+
+.contact{
+    float:left;
+}
+.res1{
+    float: left;
+    padding-left: 20px;
+    margin-left: 45px;
+}
+@media screen and (min-width: 400px) {
+  body {
+    width: auto;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  body {
+    font-weight: auto;
+  }
+}
+
+
+
+
+
